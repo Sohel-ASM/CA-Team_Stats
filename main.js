@@ -59,4 +59,9 @@ const teamBarca = {
         };
         this.games.push(game);
     }
-}; // this is const's closing closing brace
+};
+// adding players in the team object and printing the players array
+teamBarca.addPlayer('Steph', 'Curry', 28);
+teamBarca.addPlayer('Lisa', 'Leslie', 44);
+teamBarca.addPlayer('Bugs', 'Bunny', 76);
+console.log(teamBarca.players);
