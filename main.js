@@ -60,8 +60,13 @@ const teamBarca = {
         this.games.push(game);
     }
 };
-// adding players in the team object and printing the players array
+// adding players in the team object and printing the _players array
 teamBarca.addPlayer('Steph', 'Curry', 28);
 teamBarca.addPlayer('Lisa', 'Leslie', 44);
 teamBarca.addPlayer('Bugs', 'Bunny', 76);
 console.log(teamBarca.players);
+// adding games to the team object and printing the _games array 
+teamBarca.addGame('Juventus', 3, 2);
+teamBarca.addGame('Ajax', 3, 1);
+teamBarca.addGame('PSG', 1, 1);
+console.log(teamBarca.games);
