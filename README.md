@@ -1,0 +1,2 @@
+This project is part of codecademy pro's Learn JavaScript course's projects. 
+This JavaScript program is for keeping track of a team's statistics. Such as data about the team's players, and data about the games/matches the team has played. Though this program currently represents only one team, it can be extended to represent all the teams in a league, and calculate all the statistics of a league. Based upon the gleaned statistics, this program can be extended to gain insight about the players, and teams in a league, and overall the league itself.
