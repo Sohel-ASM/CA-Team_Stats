@@ -51,4 +51,12 @@ const teamBarca = {
         };
         this.players.push(player);
     },
+    addGame(opponent, teamGoal, oppGoal) {
+        const game = {
+            opponent,
+            teamGoal,
+            oppGoal
+        };
+        this.games.push(game);
+    }
 }; // this is const's closing closing brace
