@@ -42,4 +42,13 @@ const teamBarca = {
     get games() {
         return this._games;
     },
+    // method for adding new player in the teamBarca object
+    addPlayer(firstName, lastName, age) {
+        const player = {
+            firstName,
+            lastName,
+            age
+        };
+        this.players.push(player);
+    },
 }; // this is const's closing closing brace
